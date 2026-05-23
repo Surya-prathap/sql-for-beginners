@@ -1,0 +1,6 @@
+-- Write a SQL query below --
+
+select first_name,last_name,email
+from customers
+where is_active = true
+order by last_name asc;
